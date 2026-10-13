@@ -1,0 +1,7 @@
+(version 1)
+
+# Reverse-mount SK6812MINI-E LEDs: the pads sit right at the edge of their own
+# light cutout by design. Only these footprints' pads are exempt from edge clearance.
+(rule "SK6812MINI-E pads to own LED cutout"
+   (constraint edge_clearance (min 0mm))
+   (condition "A.Type == 'Pad' && A.memberOfFootprint('HackPad Footprints:SK6812MINI-E_fixed')"))
