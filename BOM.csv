@@ -1,0 +1,10 @@
+Part,Quantity,Reference,Notes
+Seeed XIAO RP2040,1,U1,Microcontroller
+0.91" OLED display (I2C 128x32),1,U2,ER-OLEDM0.91-1x-I2C
+EC11 rotary encoder with switch,1,SW1,
+Cherry MX switch,8,SW2 SW4 SW6-SW10 SW12,
+1N4148 diode (DO-35 THT),9,D2 D4 D6-D10 D12 D13,Matrix diodes
+SK6812 MINI-E RGB LED,8,D1 D3 D5 D11 D14-D17,
+Keycap (MX),8,,
+Encoder knob (3D printed),1,,Production/Encoder Knob.step
+M3 screw,4,,Case assembly (verify count against CAD)
