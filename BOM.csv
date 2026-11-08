@@ -8,5 +8,5 @@ Item,Quantity,Component,Description / Notes,Included in HackPad Kit
 8,6,M3x5x4mm Heatset Inserts,Brass threaded chassis inserts,Yes
 9,9,1N4148 Diodes,Through-hole matrix diodes (unused in direct pin layout),Yes
 10,1,Soldering Iron Station,Required for assembly (target temperature: 320-350°C),No
-11,1,Printing Legion Grant,Get $8 in shipping credit to get a part shipped from Printing Legion under 300 grams!,No
-12,1,Hackpad PCB Grant,Get $10 in credit for your Hackpad PCB from JLCPCB,No
+11,1,Printing Legion Grant, $8 in credit for Printing Legion,No
+12,1,Hackpad PCB Grant, $10 in credit for JLCPCB,No
