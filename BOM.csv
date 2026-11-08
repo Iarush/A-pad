@@ -1,10 +1,12 @@
-Part,Quantity,Reference,Notes
-Seeed XIAO RP2040,1,U1,Microcontroller
-0.91" OLED display (I2C 128x32),1,U2,ER-OLEDM0.91-1x-I2C
-EC11 rotary encoder with switch,1,SW1,
-Cherry MX switch,8,SW2 SW4 SW6-SW10 SW12,
-1N4148 diode (DO-35 THT),9,D2 D4 D6-D10 D12 D13,Matrix diodes
-SK6812 MINI-E RGB LED,8,D1 D3 D5 D11 D14-D17,
-Keycap (MX),8,,
-Encoder knob (3D printed),1,,Production/Encoder Knob.step
-M3 screw,4,,Case assembly (verify count against CAD)
+Item,Quantity,Component,Description / Notes,Included in HackPad Kit
+1,1,Seeed Studio XIAO RP2040,Main microcontroller board (unsoldered),Yes
+2,1,0.91" SSD1306 OLED Display,128x32 pixel screen; I2C interface (pinout: GND-VCC-SCL-SDA),Yes
+4,9,MX-Style Mechanical Switches,Keyswitches of choice,Yes
+5,9,Blank DSA Keycaps,White keycaps,Yes
+6,4,SK6812 MINI-E RGB LEDs,Reverse-mount addressable LEDs,Yes
+7,6,M3x16mm Screws,Enclosure fasteners,Yes
+8,6,M3x5x4mm Heatset Inserts,Brass threaded chassis inserts,Yes
+9,9,1N4148 Diodes,Through-hole matrix diodes (unused in direct pin layout),Yes
+10,1,Soldering Iron Station,Required for assembly (target temperature: 320-350°C),No
+11,1,Printing Legion Grant,Get $8 in shipping credit to get a part shipped from Printing Legion under 300 grams!,No
+12,1,Hackpad PCB Grant,Get $10 in credit for your Hackpad PCB from JLCPCB,No

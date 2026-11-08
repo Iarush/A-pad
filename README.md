@@ -13,7 +13,7 @@ Custom-made case and plates
 ## CAD Model
 
 The Case is constructed using the sandwhich plating method. 3 plates were made. A bottom plate where screws are added, a middle frame amidst which the PCB rests, and finally a top switchplate for an aestheic look tht hides the screws.
-![CAD Model](images\CAD.png)
+![CAD Model](Images/CAD.png)
 
 ### Unique Features
 
@@ -25,8 +25,8 @@ CAD was made in Onshape
 ## PCB Schematic
 
 The schematic was created in KICAD with the guidance of this Joe Scotto video on matrix wiring: [Video](https://www.youtube.com/watch?v=8WXpGTIbxlQ&t=787s)
-![Schematic Model](images\Schematic.png)
+![Schematic Model](Images/Schematic.png)
 
 ## PCB
 
-![PCB Model](images\PCB.png)
+![PCB Model](Images/PCB.png)
