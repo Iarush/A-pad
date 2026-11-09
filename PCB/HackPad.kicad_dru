@@ -5,3 +5,8 @@
 (rule "SK6812MINI-E pads to own LED cutout"
    (constraint edge_clearance (min 0mm))
    (condition "A.Type == 'Pad' && A.memberOfFootprint('HackPad Footprints:SK6812MINI-E_fixed')"))
+
+# JLCPCB absolute limit: copper >= 0.2mm from any board edge (board setup also 0.2mm).
+(rule "JLCPCB via to board edge"
+   (constraint edge_clearance (min 0.25mm))
+   (condition "A.Type == 'Via'"))
