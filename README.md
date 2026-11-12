@@ -30,3 +30,10 @@ The schematic was created in KICAD with the guidance of this Joe Scotto video on
 ## PCB
 
 ![PCB Model](Images/PCB.png)
+## Firmware
+
+KMK (CircuitPython) firmware is in [`Firmware/`](Firmware) (also copied to `Production/Firmware/`).
+
+## BOM
+
+See [BOM.csv](BOM.csv).
