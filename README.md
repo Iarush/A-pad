@@ -30,3 +30,13 @@ The schematic was created in KICAD with the guidance of this Joe Scotto video on
 ## PCB
 
 ![PCB Model](Images/PCB.png)
+
+## Firmware Overview
+
+This hackpad uses [KMK](https://github.com/KMKfw/kmk_firmware) firmware (CircuitPython). The firmware is [Production/main.py](Production/main.py).
+
+- The 8 keys are wired as a 3x3 diode matrix (the encoder push button is the 9th spot)
+- Keys: copy / play-pause / paste on top, undo / save / redo on the crossbar, previous / next track on the legs
+- The rotary encoder changes volume, press to mute
+- The 8 SK6812 MINI-E LEDs run a breathing rainbow
+- The OLED shows the A-Pad name and the encoder controls
